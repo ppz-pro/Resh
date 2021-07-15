@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@ppzp/http-router": "0.0.0",
+    "@ppzp/resh": "0.0.0"
+  }
+}
