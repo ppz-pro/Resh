@@ -1,13 +1,14 @@
 {
   "name": "@ppzp/resh",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "web framework for node.js",
-  "main": "src/index.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ppz-pro/resh.git"
   },
   "keywords": [
+    "resh",
     "web",
     "http",
     "router"
@@ -18,5 +19,8 @@
     "url": "https://github.com/ppz-pro/resh/issues"
   },
   "homepage": "https://github.com/ppz-pro/resh#readme",
-  "dependencies": {}
+  "dependencies": {
+    "@ppzp/http-router": "^0.1.1",
+    "lodash": ">=4.0.0"
+  }
 }
