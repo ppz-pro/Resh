@@ -4,5 +4,7 @@
  */
 exports.returnData = async function(vege, ctx) {
   const data = await vege(ctx)
-  ctx.responseJson(data)
+  if(data != Returned)
+    ctx.responseJson(data)
 }
+const Returned = exports.Returned = Symbol('returned')
