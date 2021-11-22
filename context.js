@@ -55,13 +55,13 @@ module.exports = class Context {
     this.res.end(JSON.stringify(data))
   }
 
-  /** @param {Http.ServerResponse} res */
+  /** @param {import('http').ServerResponse} res */
   handle404(res) {
     res.statusCode = 404
     res.end('404')
   }
   
-  /** @param {Http.ServerResponse} res */
+  /** @param {import('http').ServerResponse} res */
   handle500(res, e) {
     console.error('服务器内部错误')
     console.error(e)

@@ -2,7 +2,7 @@ const Http = require('http')
 const HttpRouter = require('@ppzp/http-router')
 const Context = require('./context')
 const defaults = require('lodash/defaults')
-const breads = require('./breads')
+const returnData = require('./breads/return-data')
 
 module.exports = class Resh {
   constructor(options) {
@@ -13,7 +13,7 @@ module.exports = class Resh {
     })
 
     if(options.returnData)
-      options.breads.unshift(breads.returnData)
+      options.breads.unshift(returnData)
     this.router = new HttpRouter(options)
 
     this.server = Http.createServer( (req, res) => {

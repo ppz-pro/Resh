@@ -1,5 +1,5 @@
 const Resh = require('@ppzp/resh')
-const Returned = require('@ppzp/resh/breads').Returned
+const Returned = require('@ppzp/resh/breads/return-data').Returned
 
 const app = new Resh()
 
