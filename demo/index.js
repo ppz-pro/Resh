@@ -2,8 +2,8 @@ const Resh = require('@ppzp/resh')
 
 const app = new Resh()
 
-app.router.get('/test', function($) {
-  console.log($.getParams())
+app.router.get('/test', async function($) {
+  console.log(await $.getJson())
   return {
     success: true
   }
