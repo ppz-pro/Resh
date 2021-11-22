@@ -14,8 +14,15 @@ module.exports = class Context {
     // TODO
   }
 
-  param() {
-    // TODO
+  getParams() {
+    if(this.__params)
+      return this.__params
+    
+    this.__params = {}
+    this.url.searchParams.forEach((v, k) => {
+      this.__params[k] = v
+    })
+    return this.__params
   }
 
   responseJson(data) {
