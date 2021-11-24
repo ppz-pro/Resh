@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@ppzp/resh": "file:../ppzp-resh-0.1.0.tgz"
+    "@ppzp/resh": "^0.1.1"
   }
 }
