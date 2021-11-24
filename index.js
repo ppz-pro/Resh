@@ -21,7 +21,7 @@ module.exports = class Resh {
     if(options.controllers)
       this.router.setChildren(options.controllers)
 
-    this.server = Http.createServer( (req, res) => {
+    this.server = Http.createServer( async (req, res) => {
       const ctx = new options.Context(req, res)
       const handler = this.router.getHandler(req.method, ctx.url.pathname)
       if(handler)
