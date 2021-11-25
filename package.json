@@ -1,6 +1,6 @@
 {
   "name": "@ppzp/resh",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "web framework for node.js",
   "main": "index.js",
   "repository": {
@@ -8,6 +8,7 @@
     "url": "git+https://github.com/ppz-pro/resh.git"
   },
   "keywords": [
+    "server",
     "resh",
     "web",
     "http",

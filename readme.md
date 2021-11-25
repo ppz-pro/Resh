@@ -22,10 +22,10 @@ npm install @ppzp/resh # 在项目中安装 resh
 ```
 
 #### 案例
-+ [小试牛刀](https://github.com/ppz-pro/resh/blob/usage/taste-of-blood/)
-+ [取数据](https://github.com/ppz-pro/resh/blob/usage/take-data/)
-+ [AOP](https://github.com/ppz-pro/resh/blob/usage/aop/)
-+ [Controller](https://github.com/ppz-pro/resh/blob/usage/controller/)
++ [小试牛刀](https://ppz-pro.github.io/resh/docs/taste-of-blood/)
++ [取数据](https://ppz-pro.github.io/resh/docs/take-data/)
++ [AOP](https://ppz-pro.github.io/resh/docs/aop/)
++ [Controller](https://ppz-pro.github.io/resh/docs/controller/)
 
 #### API
 TODO
