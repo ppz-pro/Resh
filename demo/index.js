@@ -3,14 +3,14 @@ const Returned = require('@ppzp/resh/breads/return-data').Returned
 
 const app = new Resh()
 
-app.router.get('/test', async function($) {
+app.controller.get('/test', async function($) {
   console.log(await $.getJson())
   return {
     success: true
   }
 })
 
-app.router.get('/go', function($) {
+app.controller.get('/go', function($) {
   $.res.end('haha')
   return Returned
 })

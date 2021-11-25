@@ -1,5 +1,5 @@
 const Http = require('http')
-const HttpRouter = require('@ppzp/http-router')
+const Controller = require('@ppzp/controller')
 const Context = require('./context')
 const { defaults, promiseAll } = require('@ppzp/utils')
 const returnData = require('./breads/return-data')
@@ -17,13 +17,13 @@ module.exports = class Resh {
       options.breads.unshift(returnData)
     this.__onInit = options.onInit
 
-    this.router = new HttpRouter(options)
+    this.controller = new Controller(options)
     if(options.controllers)
-      this.router.setChildren(options.controllers)
+      this.controller.setChildren(options.controllers)
 
     this.server = Http.createServer( async (req, res) => {
       const ctx = new options.Context(req, res)
-      const handler = this.router.getHandler(req.method, ctx.url.pathname)
+      const handler = this.controller.getHandler(req.method, ctx.url.pathname)
       if(handler)
         try {
           await handler(ctx)
@@ -47,7 +47,7 @@ module.exports = class Resh {
       throw e
     }
 
-    this.router.makeSandwich()
+    this.controller.makeSandwich()
     this.server.listen(...arguments)
   }
 }
