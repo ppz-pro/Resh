@@ -8,6 +8,6 @@
 + 取到数据后，再由 controller 送到页面上
 
 下面的案例，是 ```userController``` 和 ```bookController```:
-+ [index.js](https://github.com/ppz-pro/Resh/blob/docs/controller/index.js)
-+ [user.js](https://github.com/ppz-pro/Resh/blob/docs/controller/user.js)
-+ [book.js](https://github.com/ppz-pro/Resh/blob/docs/controller/book.js)
++ [index.js](https://github.com/ppz-pro/Resh/blob/main/docs/controller/index.js)
++ [user.js](https://github.com/ppz-pro/Resh/blob/main/docs/controller/user.js)
++ [book.js](https://github.com/ppz-pro/Resh/blob/main/docs/controller/book.js)
