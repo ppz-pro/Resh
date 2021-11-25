@@ -26,6 +26,7 @@ npm install @ppzp/resh # 在项目中安装 resh
 + [取数据](https://ppz-pro.github.io/Resh/docs/take-data/)
 + [AOP](https://ppz-pro.github.io/Resh/docs/aop/)
 + [Controller](https://ppz-pro.github.io/Resh/docs/controller/)
++ [三层路由](https://ppz-pro.github.io/Resh/docs/three/)
 
 #### API
 TODO
