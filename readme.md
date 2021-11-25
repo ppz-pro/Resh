@@ -4,8 +4,32 @@ npm install @ppzp/resh
 ```
 [皮皮仔宣言](https://github.com/ppz-pro/declaration)
 
-## 案例
-+ [小试牛刀](https://github.com/ppz-pro/resh/tree/usage-%E5%B0%8F%E8%AF%95%E7%89%9B%E5%88%80)
-+ [取数据](https://github.com/ppz-pro/resh/tree/usage-%E5%8F%96%E6%95%B0%E6%8D%AE)
-+ [AOP](https://github.com/ppz-pro/resh/tree/usage-aop)
-+ [Controller](https://github.com/ppz-pro/resh/tree/usage-controller)
+## 使用
+#### 环境准备
+仅需要一个普通的 node，最好 10 以上版本
+> 如果没有，进入[这个链接](https://nodejs.org/zh-cn/download/)，下载相应版本
+
+创建项目：
+``` bash
+mkdir test-resh # 创建项目目录
+cd test-resh # 进入项目目录
+# 到这里，只是一个普通的文件夹
+
+npm init -y # 使用 npm，初始化一个 node 项目
+# 到这里，一个空的 node 项目就创建好了
+
+npm install @ppzp/resh # 在项目中安装 resh
+```
+
+#### 案例
++ [小试牛刀](https://github.com/ppz-pro/resh/blob/usage/taste-of-blood/)
++ [取数据](https://github.com/ppz-pro/resh/blob/usage/take-data/)
++ [AOP](https://github.com/ppz-pro/resh/blob/usage/aop/)
++ [Controller](https://github.com/ppz-pro/resh/blob/usage/controller/)
+
+#### API
+TODO
+
+## 最后
+不保留任何版权（也实在没什么好保留的）  
+欢迎 pr、意见、批评  
