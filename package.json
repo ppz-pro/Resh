@@ -5,11 +5,11 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ppz-pro/resh.git"
+    "url": "git+https://github.com/ppz-pro/Resh.git"
   },
   "keywords": [
     "server",
-    "resh",
+    "Resh",
     "web",
     "http",
     "router"
@@ -17,9 +17,9 @@
   "author": "gy",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ppz-pro/resh/issues"
+    "url": "https://github.com/ppz-pro/Resh/issues"
   },
-  "homepage": "https://github.com/ppz-pro/resh#readme",
+  "homepage": "https://github.com/ppz-pro/Resh#readme",
   "dependencies": {
     "@ppzp/controller": "0.0.0",
     "@ppzp/utils": "0.0.0"
