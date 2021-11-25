@@ -1,6 +1,6 @@
-const App = require('@ppzp/resh') // 导入 resh
+const App = require('@ppzp/resh') // 导入 Resh
 
-const app = new App() // 创建一个 resh 对象
+const app = new App() // 创建一个 Resh 对象
 
 // 三明治的面包
 function bread(vege, $) {

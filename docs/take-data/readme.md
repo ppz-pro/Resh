@@ -1,15 +1,15 @@
 ## 取出请求里的数据
 创建文件 ```index.js```:
 ``` js
-const App = require('@ppzp/resh') // 导入 resh
+const App = require('@ppzp/resh') // 导入 Resh
 
-const app = new App() // 创建一个 resh 对象
+const app = new App() // 创建一个 Resh 对象
 
 // 添加一条路由：POST /hello
 app.controller.post('/hello', async function($) { // 注意，async 关键字
   const params = $.getParams() // 取出 url 里的参数，类似 /hello?name=小明&tel=15642244xxxx
   const data = await $.getJson() // 取出 json 数据，异步过程，需要 await 加持
-  return { // 默认情况下，resh 以 json 格式返回数据
+  return { // 默认情况下，Resh 以 json 格式返回数据
     params,
     data
   }
