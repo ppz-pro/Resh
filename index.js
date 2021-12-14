@@ -41,7 +41,7 @@ module.exports = class Resh {
 
   async start() {
     try {
-      await promiseAll(this.__onInit.map( cb => cb() ))
+      await promiseAll(this.__onInit)
     } catch(e) {
       console.error('[Resh] 初始化时发生异常')
       throw e
