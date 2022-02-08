@@ -31,6 +31,9 @@ npm install @ppzp/resh # 在项目中安装 resh
 #### API
 TODO
 
+#### TODO
++ 统一 Resh 与 Resh-alifc，使之 api （尽量）一致
+
 ## 最后
 不保留任何版权（也实在没什么好保留的）  
 欢迎 pr、意见、批评  
